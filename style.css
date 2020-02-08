@@ -1,0 +1,47 @@
+html,
+body,
+h1,
+h2 {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+table {
+  width: 100%;
+}
+
+tbody {
+  text-align: center;
+}
+
+td {
+  padding: 10px;
+}
+
+.book-table-container > nav {
+  background-color: green;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.book-table-container > .table-main,
+.container {
+  width: 80%;
+  margin: 20px auto;
+}
+
+#error-container {
+  color: red;
+}
+
+.hide {
+  display: none;
+}
